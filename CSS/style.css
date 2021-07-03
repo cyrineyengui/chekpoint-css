@@ -1,0 +1,109 @@
+/* general */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* start header */
+header .logo {
+    width: 270px;
+    float: left;
+    height: 90px;
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+}
+header nav#nav {
+    float: right;
+}
+header.bg-header {
+    overflow: hidden;
+}
+header nav#nav ul li {
+    display: inline-block;
+    padding: 10px 40px;
+}
+header nav#nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+header nav#nav ul li:hover a{
+    color: red;
+}
+header .container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header.bg-header {
+    background-color: #ffff0036;
+}
+/* end header */
+
+section.section-one {
+    display: flex;
+    /* flex-direction: row; */
+}
+/* section-one */
+section.section-one {
+    padding: 50px 0;
+}
+section.section-one .content-desc {
+    display: flex;
+}
+section.section-one .container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+section.section-one .desc {
+    width: 50%;
+}
+section.section-one .photo {
+    width: 50%;
+}
+section.section-one .photo img{
+    width: 100%;
+    height: 100%;
+}
+/* end section-one */
+/* desc-two */
+section.desc-two {
+    text-align: center;
+    padding: 50px 0;
+}
+section.desc-two h1 {
+    color: red;
+    font-size: 35px;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    font-family: 'Festive', cursive;
+}
+section.desc-two h1:after{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 90px;
+    background: red;
+   bottom: 0;
+   left: 50%;
+   right: inherit;
+   top: inherit;
+   transform: translateX(-50%);
+}
+/* footer */
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: beige;
+}
+.fab, .far {
+    font-weight: 400;
+    color: blue;
+    margin-right: 20px;
+}
+i.fab.fa-facebook:hover, i.fab.fa-twitter:hover, i.fab.fa-instagram-square:hover{
+    color: red;
+}
+.fa-facebook:before, .fa-twitter:before, .fa-instagram-square:before {
+    font-size: 26px;
+}
